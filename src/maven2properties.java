@@ -12,7 +12,7 @@ class maven2properties {
               + ":.+?:" // scope: compile or runtime
               + "(?<PATH>.+?) -- module " // absolute path
               + "(?<MODULE>\\S+)" // module name
-              + "(?:.*|$)" // optional source of module name
+              + "$" // + "(?:.*|$)" // optional source of module name
           );
 
   public static void main(String... args) throws Exception {
