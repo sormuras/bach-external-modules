@@ -62,8 +62,8 @@ public class GenerateLWJGL {
             new Classifier("linux-arm_32", "natives-linux-arm32"),
             new Classifier("linux-arm_64", "natives-linux-arm64"),
             // macos
-            new Classifier("osx-x86_64", "natives-macos"),
-            new Classifier("osx-arm_64", "natives-macos-arm64"),
+            new Classifier("mac-x86_64", "natives-macos"),
+            new Classifier("mac-arm_64", "natives-macos-arm64"),
             // windows
             new Classifier("windows-x86_32", "natives-windows-x86"),
             new Classifier("windows-x86_64", "natives-windows"),
