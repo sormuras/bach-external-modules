@@ -1,3 +1,3 @@
 package generator;
 
-record Artifact(String identifier) {}
+public record Artifact(String identifier) {}

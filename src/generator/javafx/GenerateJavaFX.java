@@ -1,5 +1,9 @@
-package generator;
+package generator.javafx;
 
+import generator.Artifact;
+import generator.Classifier;
+import generator.LineGenerator;
+import generator.Maven;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
@@ -11,7 +15,7 @@ public class GenerateJavaFX {
 
   public static void main(String... args) throws Exception {
     var version = args.length == 0 ? "18" : args[0];
-    var generator = LineGenerator.of("javafx@" + version);
+    var generator = LineGenerator.of("javafx", "javafx@" + version);
 
     var artifacts =
         List.of(

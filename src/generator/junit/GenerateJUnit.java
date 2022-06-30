@@ -13,7 +13,7 @@ public class GenerateJUnit {
   public static void main(String... args) throws Exception {
     if (args.length == 0) throw new Error("Usage: GenerateJUnit VERSION");
     var version = args[0];
-    var generator = LineGenerator.of("junit@" + version);
+    var generator = LineGenerator.of("junit", "junit@" + version);
 
     @SuppressWarnings("UnnecessaryLocalVariable") var jupiterVersion = version;
     @SuppressWarnings("UnnecessaryLocalVariable") var vintageVersion = version;

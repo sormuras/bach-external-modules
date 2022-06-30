@@ -1,3 +1,3 @@
 package generator;
 
-record Classifier(String normalized, String identifier) {}
+public record Classifier(String normalized, String identifier) {}

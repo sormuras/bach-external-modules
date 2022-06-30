@@ -1,5 +1,9 @@
-package generator;
+package generator.lwjgl;
 
+import generator.Artifact;
+import generator.Classifier;
+import generator.LineGenerator;
+import generator.Maven;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.ArrayList;
