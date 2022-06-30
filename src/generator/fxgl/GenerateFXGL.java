@@ -24,10 +24,10 @@ public class GenerateFXGL {
             Maven.central(group, "fxgl-gameplay", version),
             Maven.central(group, "fxgl-io", version),
             // Maven.central(group, "fxgl-samples", version),
-            Maven.central(group, "fxgl-scene", version),
+            Maven.central(group, "fxgl-scene", version)
             // Maven.central(group, "fxgl-test", version),
-            Maven.central(group, "fxgl-tools", version),
-            Maven.central(group, "fxgl-zdeploy", version)
+            // Maven.central(group, "fxgl-tools", version),
+            // Maven.central(group, "fxgl-zdeploy", version)
     );
 
     var lines = new ArrayList<String>();
